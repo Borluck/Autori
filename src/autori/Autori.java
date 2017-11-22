@@ -8,6 +8,6 @@ public class Autori {
         Scanner scan = new Scanner(System.in);
         String text = scan.nextLine().replaceAll("[a-z]","").replaceAll("-", "");
         System.out.println(text);
-    }
+    } 
     
 }
